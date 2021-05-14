@@ -14,12 +14,12 @@
       padding: 10px 30px;
     }
     &:hover {
-      background-color: lighten($color: #51ddfc, $amount: 15%);
+      background-color: lighten($color: $link-colr, $amount: 15%);
     }
   }
   
   .default {
-    background-color: #51ddfc;
+    background-color: $link-colr;
   }
   
   .error {
